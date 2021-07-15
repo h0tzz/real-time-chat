@@ -1,11 +1,12 @@
 import React from 'react';
 import './styles/App.scss';
+import WebSock from "./WebSock";
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+      <div>
+        <WebSock />
+      </div>
   );
 }
 
